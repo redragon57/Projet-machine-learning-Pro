@@ -41,7 +41,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Méthodes classiques de Machine Learning](All_ML_python/Methode_classique_ML/README.md)
+#### [Méthodes classiques de Machine Learning](All_ML_python/Methode_classique_ML/)
 - Régressions : linéaire, logistique, ridge, lasso, elastic net  
 - Méthodes bayésiennes : naïf bayes, régression bayésienne  
 - k-Nearest Neighbors (k-NN)  
@@ -52,7 +52,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Clustering et réduction de dimension](All_ML_python/Clustering_et_réduction_de_dimension/README.md)
+#### [Clustering et réduction de dimension](All_ML_python/Clustering_et_réduction_de_dimension/)
 - k-Means, k-Medoids  
 - DBSCAN, OPTICS  
 - Gaussian Mixture Models (GMM)  
@@ -62,7 +62,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Réseaux de neurones et Deep Learning](All_ML_python/Réseaux_Neurones_et_DL/README.md)
+#### [Réseaux de neurones et Deep Learning](All_ML_python/Réseaux_Neurones_et_DL/)
 - Perceptron, MLP  
 - CNN, ResNet, DenseNet, EfficientNet  
 - RNN, LSTM, GRU  
@@ -72,7 +72,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Apprentissage par renforcement](All_ML_python/Reinforcement_Learning_RL/README.md)
+#### [Apprentissage par renforcement](All_ML_python/Reinforcement_Learning_RL/)
 - Q-Learning, SARSA  
 - Deep Q-Networks (DQN, Double DQN, Dueling DQN)  
 - Policy Gradient, Actor-Critic  
@@ -81,7 +81,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Apprentissage avancé et hybrides](All_ML_python/ML_Avancée/README.md)
+#### [Apprentissage avancé et hybrides](All_ML_python/ML_Avancée/)
 - Apprentissage semi-supervisé et auto-supervisé  
 - Few-shot learning, Zero-shot learning  
 - Meta-learning : MAML, Reptile, LEAP  
@@ -100,7 +100,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Analyse de données et modèles probabilistes](All_ML_python/Analyse_data_et_modèle_probabiliste/README.md)
+#### [Analyse de données et modèles probabilistes](All_ML_python/Analyse_data_et_modèle_probabiliste/)
 - Séries temporelles : ARIMA, SARIMA, Prophet, RNN/Transformers pour séries temporelles  
 - Méthodes de causalité : Granger Causality, DoWhy, modèles structurels  
 - Graph Mining et **Graph Neural Networks (GNN, GraphSAGE, GAT)**  
@@ -109,7 +109,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Méthodes émergentes et bio-inspirées](All_ML_python/New_Methode_experimental/README.md)
+#### [Méthodes émergentes et bio-inspirées](All_ML_python/New_Methode_experimental/)
 - Spiking Neural Networks (SNN)  
 - Liquid State Machines (LSM)  
 - Reservoir Computing  
@@ -121,7 +121,7 @@ Cette revue sera structurée en catégories, avec implémentations et comparaiso
 
 ---
 
-#### [Apprentissage quantique (Quantum Machine Learning - QML)](All_ML_python/Quantum_ML/README.md)
+#### [Apprentissage quantique (Quantum Machine Learning - QML)](All_ML_python/Quantum_ML/)
 - Quantum Support Vector Machines (QSVM)  
 - Variational Quantum Circuits (VQC)  
 - Quantum k-Means  
