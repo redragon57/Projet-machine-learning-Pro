@@ -1,4 +1,4 @@
-### [DeepWeather](DeepWeather/)
+### DeepWeather
 
 **DeepWeather** est un projet de prédiction météorologique utilisant des modèles de Machine Learning et de Deep Learning.  
 L’objectif est double :  
