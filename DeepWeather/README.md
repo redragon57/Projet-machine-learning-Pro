@@ -61,7 +61,7 @@ Corrélations obtenues (Pearson) entre prédictions et valeurs réelles :
 
 ## 5. Conclusion
 
-Les quatre modèles sont fonctionnels et apprennent correctement, avec corrélation entre 0.74 et 0.80 sur les données de test.
+Les quatre modèles sont fonctionnels et apprennent correctement, avec corrélation entre 0.74 et 0.83 sur les données de test.
 
 L’approche 3 (entropie-guidée) obtient la meilleure corrélation (0.8345), montrant que l’intégration d’une mesure de complexité structurelle pour calibrer le réseau est viable.
 
