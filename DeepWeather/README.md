@@ -38,27 +38,31 @@ pip install -r requirements.txt
 ## 2. Outils génériques
 
 Classe WeatherDataset pour transformer le DataFrame en séquences temporelles exploitables par un LSTM.
+
 Modèle LSTMForecast : LSTM multivarié avec couche fully connected finale.
+
 Fonction dataframe_entropy(df) : calcule la taille brute du CSV et l’entropie moyenne par blocs de 128 octets (mesure de complexité structurelle).
 
 ## 3. Stratégies d’entraînement testées
 
-Model 1 : entraînement simple avec hyperparamètres fixes.
-Model 2 : ajout d’early stopping adaptatif basé sur une fenêtre de pertes et un gain minimal (eps_gain).
-Model 3 : paramétrage automatique du nombre de couches et de neurones via la taille du fichier et son entropie de Kolmogorov estimée.
-Model 4 : arrêt anticipé conditionné à une amélioration proportionnelle à la perte courante (10%).
+- Model 1 : entraînement simple avec hyperparamètres fixes.
+- Model 2 : ajout d’early stopping adaptatif basé sur une fenêtre de pertes et un gain minimal (eps_gain).
+- Model 3 : paramétrage automatique du nombre de couches et de neurones via la taille du fichier et son entropie de Kolmogorov estimée.
+- Model 4 : arrêt anticipé conditionné à une amélioration proportionnelle à la perte courante (10%).
 
 ## 4. Résultats expérimentaux
 
 Données : taille CSV ≈ 2,73 Mo, entropie moyenne ≈ 3,19 bits/bloc, soit ≈ 0,40 bits/octet.
 Corrélations obtenues (Pearson) entre prédictions et valeurs réelles :
-Model 1 : 0.8002
-Model 2 : 0.7448
-Model 3 : 0.8043
-Model 4 : 0.8345
+- Model 1 : 0.8002
+- Model 2 : 0.7448
+- Model 3 : 0.8043
+- Model 4 : 0.8345
 
 ## 5. Conclusion
 
 Les quatre modèles sont fonctionnels et apprennent correctement, avec corrélation entre 0.74 et 0.80 sur les données de test.
-L’approche 3 (entropie-guidée) obtient la meilleure corrélation (0.8043), montrant que l’intégration d’une mesure de complexité structurelle pour calibrer le réseau est viable.
+
+L’approche 3 (entropie-guidée) obtient la meilleure corrélation (0.8345), montrant que l’intégration d’une mesure de complexité structurelle pour calibrer le réseau est viable.
+
 Les mécanismes d’early stopping et de paramétrage automatique (taille du réseau, gain minimal) améliorent la stabilité et évitent le surapprentissage.
