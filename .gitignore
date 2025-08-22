@@ -2,3 +2,5 @@ Gen_Anime_Image/Data/Images_Anime/**
 Gen_Anime_Image/Data/Images_Photo/**
 Gen_Anime_Image/Classique_weight/**
 Gen_Anime_Image/checkpoints_acgan/**
+Compress_Data_DQN/Data/**
+Compress_Data_DQN/Result/**
