@@ -34,7 +34,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### [CycleGAN & Adaptive CycleGAN (AC-GAN) for Photo-to-Anime Translation](Gen_Anime_Image/)
+### [2. CycleGAN & Adaptive CycleGAN (AC-GAN) for Photo-to-Anime Translation](Gen_Anime_Image/)
 
 #### Description
 Ce projet implémente un **CycleGAN classique** et une version expérimentale **Adaptive CycleGAN (AC-GAN)** pour la traduction d'images de photos réelles vers un style anime. L'objectif est de générer des images stylisées réalistes tout en explorant des techniques d'entraînement progressif pour accélérer la convergence et optimiser les poids inutiles.
@@ -81,7 +81,7 @@ Ce projet implémente un **CycleGAN classique** et une version expérimentale **
 
 
 
-### [DQN-Based File Compression Agent (V1)](Compress_Data_DQN/)
+### [3. DQN-Based File Compression Agent (V1)](Compress_Data_DQN/)
 
 #### Description
 
@@ -99,7 +99,7 @@ Le système est conçu pour être extensible : plusieurs méthodes de compressio
 
 
 
-### [2. Revue exhaustive des méthodes de Machine Learning et d’Analyse de données *(en projet)*](All_ML_python/)
+### [4. Revue exhaustive des méthodes de Machine Learning et d’Analyse de données *(en projet)*](All_ML_python/)
 
 Un second dossier contiendra une **liste exhaustive et organisée** de toutes les méthodes de Machine Learning et d’Analyse de données, allant des algorithmes classiques aux modèles avancés, émergents et expérimentaux.  
 Cette revue sera structurée en catégories, avec implémentations et comparaisons.
